@@ -40,7 +40,6 @@ sudo systemctl unmask snapd.service
 sudo systemctl enable snapd.service
 sudo systemctl start snapd.service
 sudo snap install code --classic
-sudo snap install code-server --edge
 
 cd ~/Public
 git clone https://github.com/tech-shamp/portfolio.git
